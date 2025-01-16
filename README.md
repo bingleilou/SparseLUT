@@ -21,7 +21,7 @@ def LoadFeatureMask(out_features: int, fan_in: int, layer_number: int):
         torch.Tensor: The feature mask as a torch tensor.
     """
     # Construct the file name based on the layer number
-    #file_name = f"./xxx/mask_layer_{layer_number}.csv"
+    #file_name = f"./mask_layer_{layer_number}.csv"
     # Load the CSV file using pandas
     
     df = pd.read_csv(file_name, header=None)  # Read without headers
