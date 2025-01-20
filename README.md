@@ -15,7 +15,6 @@ def LoadFeatureMask(out_features: int, fan_in: int, layer_number: int):
         out_features (int): Number of output features.
         fan_in (int): Number of non-zero connections per output.
         layer_number (int): Layer number (used to identify the corresponding CSV file).
-        file_prefix (str): Prefix for the CSV file name.
 
     Returns:
         torch.Tensor: The feature mask as a torch tensor.
