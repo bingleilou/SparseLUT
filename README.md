@@ -20,11 +20,12 @@ def LoadFeatureMask(out_features: int, fan_in: int, layer_number: int):
         torch.Tensor: The feature mask as a torch tensor.
     """
     # Construct the file name based on the layer number
-    #file_name = f"./mask_layer_{layer_number}.csv"
-    # Load the CSV file using pandas
-    
-    df = pd.read_csv(file_name, header=None)  # Read without headers
+    file_name = f"./mask_layer_{layer_number}.csv"
+
+    # Load the CSV file(import pandas as pd)
+    df = pd.read_csv(file_name, header=None)
     df = df.iloc[1:, :]  # Ignore the first row (column numbers)
+
     # Validate the loaded mask dimensions
     assert df.shape == (out_features, fan_in), \
         f"Loaded mask shape {df.shape} does not match expected shape ({out_features}, {fan_in})"
