@@ -1,6 +1,9 @@
 # SparseLUT
 Sparse Connectivity Optimization for Lookup Table-based Deep Neural Networks
 
+An example of the connectivity curve is shown in this figure (epoch=200, T=160).
+<img src="example.PNG" alt="Description" width="10000">
+
 
 We have shared the optimized connectivity masks obtained from SparseLUT with all baseline models listed in Table IV of our paper.
 
