@@ -5,7 +5,7 @@ An example of the connectivity curve is shown in this figure (epoch=200, T=160).
 <img src="example.PNG" alt="Description" width="10000">
 
 
-We have shared the optimized connectivity masks obtained from SparseLUT with all baseline models listed in Table IV of our paper.
+We have shared the optimized connectivity masks obtained from SparseLUT with all baseline models listed in Table IV of the paper.
 
 In addition, we provide the ```LoadFeatureMask``` function, which can be used to seamlessly load these masks into frameworks such as **LogicNets**, **PolyLUT**, **PolyLUT-Add**, and **NeuraLUT**. By utilizing this function, you can replace the default random connectivity in these models with the optimized connectivity achieved through SparseLUT.
 
