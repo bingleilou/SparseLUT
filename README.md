@@ -44,4 +44,4 @@ def LoadFeatureMask(out_features: int, fan_in: int, layer_number: int):
     
 This functionality allows researchers to directly integrate SparseLUT’s optimized connectivity into their work, enabling comparisons or further enhancements on various frameworks.
 
-The complete code for SparseLUT will be made publicly available on this repository after the paper is accepted.
+The complete code for SparseLUT will be made publicly available on this repository later.
